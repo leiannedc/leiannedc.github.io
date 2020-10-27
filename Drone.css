@@ -1,99 +1,97 @@
 body {
-	font-family: Arial, Bold, sans-serif;
-	position: relative;
-	color: #ffffff;
+  font-family: Arial, Bold, sans-serif;
+  position: relative;
+  color: #ffffff;
 }
 
-
-#drone_feature {
-	background: url(topimage.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+#drone_feature{
+  background:url(topimage.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
 }
 
-#seed_detection {
-	background: url(regrowth_2.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+#seed_detection{
+  background:url(regrowth_2.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
 }
 
-#automatic_optimization {
-	background: url(regrowth_5.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+#automatic_optimization{
+  background:url(regrowth_5.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
 }
 
-#improved_camera {
-	background: url(regrowth_6.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+#improved_camera{
+  background:url(regrowth_6.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
 }
 
-#powerful_motor {
-	background: url(regrowth_8.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+#powerful_motor{
+  background:url(regrowth_8.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
 }
 
-.hero, .content {
-	text-align: center;
-	position: relative;
-	width: 100%;
+.hero, .content{
+  text-align:center;
+  position:relative;
+  width: 100%;
 }
 
-.inner {
-	min-height: 600px;
-	position: relative;
+.inner{
+  min-height:600px;
+  position: relative;
 }
 
-.hero .inner {
-	background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+.hero .inner{
+  background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;}
+
+
+.copy{
+  position:absolute;
+  top:50%;
+  height:10em;
+  margin-top:-5em;
+  width:100%;
 }
 
-.copy {
-	position: absolute;
-	top: 50%;
-	height: 10em;
-	margin-top: -5em;
-	width: 100%;
-}
-
-h1 {
-	margin: 0px;
-	font-weight: bolder;
-	font-size: 50px;
-	padding: 0px 20px;
+h1{
+  margin:0px;
+  font-weight:bolder;
+  font-size:50px;
+  padding:0px 20px;
 }
 
 .hero_left {
-	text-align: left;
-	position: relative;
-	width: 100%;
+  text-align:left;
+  position:relative;
+  width: 100%;
 }
 
-.hero_left h1 {
-	color: black !important;
-}
-		
-.hero_left p {
-	color: black !important;
+.hero_left h1{
+   color:black !important;
 }
 
-/* for the side by side divs */
+.hero_left p{
+  color:black !important;
+}
+
+/* used in side by side divs */
 .parent {
-	padding: 1rem
+  padding: 1rem
 }
-
 .child {
-	padding: 1rem
+  padding: 1rem
 }
 
 .grid-parent {
-	display: grid;
-	grid-template-columns: 1fr 1fr
+  display: grid;
+  grid-template-columns: 1fr 1fr
 }
