@@ -11,15 +11,21 @@
 
 <body>
 
-	<div class="logo">
-		<a href="/" id="logo"><img src="regrowth_temp.jpg" alt="ReGrowth Logo"></a>
-	</div>
-	<div class="navigation">
-		<a class="active" href="#Seeds">Seeds Options</a>
-		<a href="#URL">Drone Features</a>
-		<a href="#About">What We Offer</a>
-		<a href="#Contact">Contact</a>
-		<a href="#QuoteRequest">Request a Quote</a>
+	<div>
+		<ul class="nav">
+			<li id="logo">
+				<a href="/"><img src="regrowth_temp.jpg" alt="ReGrowth Logo"></a>
+			</li>
+			<li><a href="#sustainable_crops">Seed Options</a></li>
+			<li><a href="drone.html">Drone Features</a></li>
+			<li><a href="#automated_farming">What We Offer</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+			<li><a href="#quote">Request a Quote</a></li>
+			<li id="search">
+				<input type="text" name="search_text" id="search_text" placeholder="Search" />
+				<input type="button" name="search_button" id="search_button" onclick="find_text()">
+			</li>
+		</ul>
 	</div>
 
 	<nav>
@@ -32,17 +38,15 @@
 		</ul>
 	</nav>
 
-	<section id="hero1" class="hero">
+	<section id="drone_feature" class="hero">
 		<div class="inner">
 			<div class="copy">
 				<h1>Our Drone <br> Features</h1>
 			</div>
 		</div>
-
-		</div>
 	</section>
 
-	<section id="hero2" class="hero_left">
+	<section id="seed_detection" class="hero_left">
 		<div class="inner">
 			<div class="copy">
 				<h1>
@@ -57,60 +61,69 @@
 					blueprint of the best locations and distances <br>
 					the seeds should be planted at. <br>
 				</p>
-
 			</div>
+		</div>
 	</section>
+
 	<div class='parent grid-parent'>
 		<div class='child'>
 			<section id="automatic_optimization" class="hero">
 				<div class="inner">
 					<div class="copy">
-
-						<div class="optimizationTitle">
-							<h1>
-								Automatic <br>
-								Optimization
-							</h1>
-						</div>
+						<h1>
+							Automatic <br>
+							Optimization
+						</h1>
+						<p>
+							The ReGrowth drone collects data from <br>
+							weather records and sunlight exposures<br>
+							to provide information to the planter<br>
+							on where the best locations to plant<br>
+							seeds are and how that will allow the<br>
+							plants to absorb maximum sunlight and<br>
+							nutrients.
+						</p>
 					</div>
 				</div>
 			</section>
 		</div>
-	</div>
-	<div>
-		<section id="improved_camera" class="hero">
+		<div>
+			<section id="improved_camera" class="hero">
+				<div class="inner">
+					<div class="copy">
+						<h1>New & Improved Camera</h1>
+						<p>
+							8k Camera<br>
+							360&deg View<br>
+							12x Optical Zoom<br>
+							Built In Land Scanner<br>
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<section id="powerful_motor" class="hero">
 			<div class="inner">
 				<div class="copy">
-					<h1>New & Improved Camera</h1>
+					<h1>Most Powerful And Efficient <br> Motor Yet...</h1>
 					<p>
-						8k Camera<br>
-						360&deg View<br>
-						12x Optical Zoom<br>
-						Built In Land Scanner<br>
+						With a super powerful and durable motor the Regrowth drone is capable of flying <br>
+						through many different conditions with a flight time over 7 hours per charge. We have designed <br>
+						the motor to be light weight and compact yet smart in conserving power and energy with a semi-solar powered <br>
+						component allowing 2 of the 4 propellers to run off solar power, ultimately enabling a longer lasting battery life <br>
 					</p>
+
 				</div>
 			</div>
 		</section>
-	</div>
 
-	<section id="powerful_motor" class="hero">
-		<div class="inner">
-			<div class="copy">
-				<h1>Most Powerful And Efficient <br> Motor Yet...</h1>
-				<p>
-					With a super powerful and durable motor the Regrowth drone is capable of flying <br>
-					through many different conditions with a flight time over 7 hours per charge. We have designed <br>
-					the motor to be light weight and compact yet smart in conserving power and energy with a semi-solar powered <br>
-					component allowing 2 of the 4 propellers to run off solar power, ultimately enabling a longer lasting battery life <br>
-				</p>
 
-			</div>
-		</div>
-	</section>
-
-	
 </body>
 </html>
+
+<script src="main.js"></script>
+
 <footer>
 	&copy; 2020 ReGrowth Drone
 </footer>

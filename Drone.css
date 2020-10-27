@@ -5,14 +5,14 @@ body {
 }
 
 
-#hero1 {
+#drone_feature {
 	background: url(topimage.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
 }
 
-#hero2 {
+#seed_detection {
 	background: url(regrowth_2.jpg);
 	background-size: cover;
 	background-position: center center;
@@ -76,12 +76,15 @@ h1 {
 	width: 100%;
 }
 
-	
+.hero_left h1 {
+	color: black !important;
+}
+		
 .hero_left p {
 	color: black !important;
 }
 
-
+/* for the side by side divs */
 .parent {
 	padding: 1rem
 }

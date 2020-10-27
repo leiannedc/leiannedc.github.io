@@ -1,7 +1,4 @@
-html {
-	scroll-behavior: smooth;
-	max-width: 99.92%;
-}
+
 body {
 	font-family: Arial, Bold, sans-serif;
 	position: relative;
@@ -135,11 +132,9 @@ aside.left img {
 
 form {
 	font-size: 30px;
-
 }
 
-input[type=text]{
-	
+input[type=text]{	
 	border: none;
 	font-size: 30px;
 	transition: background-color 2s ease;
@@ -167,8 +162,8 @@ input[type=submit] {
 }
 
 .quoteform {
-display: table;	
-width: 100%;
+	display: table;	
+	width: 100%;
 
 }
 
