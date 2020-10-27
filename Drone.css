@@ -1,6 +1,16 @@
 body {
   overflow-x: hidden;
 }
+
+
+div.logo img {
+	position: fixed;
+	left: 10px;
+	float: left;
+	height: 14%;
+	z-index: 999;
+}
+
 .navigation {
   overflow: hidden;
   background-color: #116754;
