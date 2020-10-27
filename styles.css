@@ -9,57 +9,6 @@ body {
 	color: #ffffff;
 }
 
-
-div.logo img {
-	position: fixed;
-	left: 10px;
-	float: left;
-	height: 14%;
-	z-index: 999;
-}
-nav {
-	position: fixed;
-	text-align: left;
-	font: bold;
-	color: #ffffff;
-	background-color: #116754;
-	opacity: 0.98;
-	right: 10px;
-	width: 89%;
-	z-index: 998;
-	float: center;
-
-	
-}
-
-nav li	{
-	display: inline-block;
-    text-align: center;
-	text-decoration: none;
-	
-}
-nav ul li {
-
-	line-height: 60px;
-	font-size: 25px;
-    text-align: right;
-	font-style: none;
-	text-decoration: none;
-	margin-right: px;
-	display: inline-block;
-	vertical-align: top;
-	padding: 0px 25px 0px 25px;
-
-}
-nav li a	{
-	color: #ffffff;
-	text-decoration: none;
-	}
-nav li a:hover, nav li a.active {
-	color: #11d99b;
-	text-decoration: none;
-	}
-
 footer {
 	text-align: center;
 	color: #ffffff;
@@ -200,11 +149,6 @@ input[type=text]{
 
 }
 
-label {
-	color: white;
-
-
-}
 input[type=submit] {
 	background-color:  	#3d5e8c;
 	border: none;
@@ -227,15 +171,16 @@ display: table;
 width: 100%;
 
 }
-	
+
 label {
-display: table-cell;
-white-space: nowrap;
-width: 250px;
+	color: white;
+	display: table-cell;
+	white-space: nowrap;
+	width: 250px;
 }
 
 span {
-display: table-cell;
+	display: table-cell;
 }
 
 .quoteform br {
