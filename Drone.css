@@ -1,0 +1,144 @@
+body {
+  overflow-x: hidden;
+}
+.navigation {
+  overflow: hidden;
+  background-color: #116754;
+}
+
+.navigation a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 27px 75px;
+  text-decoration: none;
+  font-family: Arial, Bold, sans-serif;
+  font-size: 15px;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+  color: #24DA00;
+}
+
+.navigation a.active {
+  background-color: #116754;
+  color: white;
+}
+
+.header {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#ffffff;
+  font-family: Arial, Bold, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  text-align:center;
+}
+
+.SeedDetectionTitle {
+  position: absolute;
+  top: 140%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color:#24DA00;
+  font-family: Arial, Bold, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.SeedDetectionContent {
+  position: absolute;
+  top: 165%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color:grey;
+  font-family: Arial, Bold, sans-serif;
+  font-size: 20px;
+}
+
+.optimizationTitle {
+  position: absolute;
+  top: 225%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  color:#24DA00;
+  font-family: Arial, Bold, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.optimizationInfo{
+  position: absolute;
+  top: 235%;
+  left: 55%;
+  color:grey;
+  font-family: Arial, Bold, sans-serif;
+}
+
+.CameraTitle{
+  position: absolute;
+  top: 220%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color:#24DA00;
+  font-family: Arial, Bold, sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+
+.CameraInfo {
+  position: absolute;
+  top: 240%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-family: Arial, Bold, sans-serif;
+  font-size: 30px;
+}
+
+.PowerfulMotorTitle {
+  position: absolute;
+  top: 290%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#24DA00;
+  font-family: Arial, Bold, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.PowerfulMotorInfo {
+  position: absolute;
+  top: 320%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:grey;
+  font-family: Arial, Bold, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.PowerfulMotor img:hover {
+	opacity: 0.4;
+}
+
+.optimization {
+  float: left;
+}
+
+.column {
+  float: left;
+  width: 49%;
+  padding: 3px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
