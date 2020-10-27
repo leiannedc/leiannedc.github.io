@@ -5,55 +5,76 @@
 	<meta name="description" content="Automated Planting drone for sustainable crop production and efficient native reforestation">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="navigation.css">
+	<link rel="stylesheet" type="text/css" href="slideshow.css">
+
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 <body>
 
-	<div class="logo">
-		<a href="/" id="logo"><img src="regrowth_temp.jpg" alt="ReGrowth Logo"></a>
-	</div>
-
-	<nav>
-		<ul>
+	<div>
+		<ul class="nav">
+			<li id="logo">
+				<a href="/"><img src="regrowth_temp.jpg" alt="ReGrowth Logo"></a>
+			</li>
 			<li><a href="#sustainable_crops">Seed Options</a></li>
 			<li><a href="drone.html">Drone Features</a></li>
 			<li><a href="#automated_farming">What We Offer</a></li>
 			<li><a href="#contact">Contact Us</a></li>
 			<li><a href="#quote">Request a Quote</a></li>
 		</ul>
-	</nav>
-
+	</div>
 
 
 	<section class="regrowth_drones">
 		<img src="regrowth_drone.jpg" alt="Automated Farming" height="100%" width="100%">
 		<div class="benefits">
 
+			<div class="slideshow-container">
 
-			<h1>Combat Climate Change</h1>
-			<p>
-				The rapid rise in industrialism has led to a massive increase in human emissions of carbon dioxide
-				and other greenhouse gases -- the primary drivers of climate change. <br><br>
-				Automation and digital intelligence can plant billions of trees to help combat climate change and lower global temperatures. <br><br>
-				ReGrowth Drones can promote our restoration efforts, to reduce carbon dioxide emissions, by planting about tens of thousands of trees everyday.
-			</p>
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+					<h1>Combat Climate Change</h1>
+					<p>
+						The rapid rise in industrialism has led to a massive increase in human emissions of carbon dioxide
+						and other greenhouse gases -- the primary drivers of climate change. <br><br>
+						Automation and digital intelligence can plant billions of trees to help combat climate change and lower global temperatures. <br><br>
+						ReGrowth Drones can promote our restoration efforts, to reduce carbon dioxide emissions, by planting about tens of thousands of trees everyday.
+					</p>
+				</div>
 
-			<h1>End Deforestation and Restore Degraded Forests</h1>
-			<p>
-				Join the initiative in protecting, restoring, and promoting the sustainable use of terrestrial ecosystems, sustainably manage local forests, and reverse land degradation and loss of biodiversity.  <br><br>
+				<div class="mySlides fade">
+					<h1>End Deforestation and Restore Degraded Forests</h1>
+					<p>
+						Join the initiative in protecting, restoring, and promoting the sustainable use of terrestrial ecosystems, sustainably manage local forests, and reverse land degradation and loss of biodiversity.  <br><br>
 
-				ReGrowth Drones can expidite the process in which our forests heal and ensuring the conservation of our
-				<a href="#sustainable_crops">native trees.</a>
-			</p>
+						ReGrowth Drones can expidite the process in which our forests heal and ensuring the conservation of our
+						<a href="#sustainable_crops">native trees.</a>
+					</p>
+				</div>
 
-			<h1>Protect Biodiversity and Natural Habitats</h1>
-			<p>
-				Take immediate and significant action to reduce the degradation of our natural habitats, inhibit the loss of biodiversity and prevent the extinction of our threatened species.  <br><br>
+				<div class="mySlides fade">
+					<h1>Protect Biodiversity and Natural Habitats</h1>
+					<p>
+						Take immediate and significant action to reduce the degradation of our natural habitats, inhibit the loss of biodiversity and prevent the extinction of our threatened species.  <br><br>
 
-				ReGrowth Drones reverse the effects of deforestation, allowing natural habitats to return and our biodiversity to flourish.
-			</p>
+						ReGrowth Drones reverse the effects of deforestation, allowing natural habitats to return and our biodiversity to flourish.
+					</p>
+
+				</div>
+
+				<!--&lt;!&ndash; Next and previous buttons &ndash;&gt;-->
+				<!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>-->
+				<!--<a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+				<!-- The dots/circles -->
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+				</div>
+			</div>
+
 
 		</div>
 	</section>
@@ -130,8 +151,10 @@
 	</section>
 </body>
 
-
 </html>
+
+<script src="main.js"></script>
+<script src="slideshow.js"></script>
 
 <footer id="footer">
 	&copy; 2020 ReGrowth Drone
