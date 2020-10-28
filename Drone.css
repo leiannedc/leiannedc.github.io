@@ -67,6 +67,7 @@ h1{
   font-weight:bolder;
   font-size:70px;
   padding:0px 20px;
+  color:antiquewhite; 
 }
 
 .hero_left {
@@ -94,4 +95,29 @@ h1{
 .grid-parent {
   display: grid;
   grid-template-columns: 1fr 1fr
+}
+
+.collapsible {
+    background-color: #669900;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+
+    .active, .collapsible:hover {
+        background-color: #336600;
+    }
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f2ffe6;
+    color: #1a3300;
 }
